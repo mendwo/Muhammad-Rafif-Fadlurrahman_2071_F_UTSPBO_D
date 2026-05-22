@@ -7,13 +7,7 @@ abstract class PesananMakanan
     private string nomorMeja;
     private string menuUtama;
     public RiwayatPesanan riwayat = new RiwayatPesanan();
-    //public RiwayatPesanan riwayat;
 
-    //public RiwayatPesanan Riwayat
-    //{
-    //    get { return namaPemesan; }
-    //    set { namaPemesan = NamaPemesan; }
-    //}
 
     public string NamaPemesan
     {
@@ -59,7 +53,6 @@ class PaketHemat : PesananMakanan
         hargaPerPorsi = harga;
         riwayat.kategoriPaket = "Hemat";
 
-        //this.namaPemesan =  namaPemesan;
     }
 
     public override void hitungTotalBill(int jumlahPorsi)
@@ -114,10 +107,6 @@ class RiwayatPesanan
         }
     }
 
-    //public RiwayatPesanan(string kategoriPaket, int jumlahPorsi, int hargaPerPorsi, int harga)
-    //{
-
-    //}
 }
 
 class Program
